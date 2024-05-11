@@ -20,7 +20,7 @@ export default function Header() {
 
       switch(click){
         case 'HOME':{
-          getSeta.style.left='11ch';
+          getSeta.style.left='12.2ch';
           break;
         }
         case 'MEUS PROJETOS':{
@@ -28,7 +28,7 @@ export default function Header() {
           break;
         }
         default :{
-          getSeta.style.left='50.5ch';
+          getSeta.style.left='49.5ch';
           break;
         }
       }
