@@ -1,10 +1,11 @@
 export default function Contato() {
     return (
       <>
-      <div>
+      <section>
         <h2>CONTATO</h2>
+        <p>Teste</p>
         
-      </div>
+      </section>
       </>
     );
   }

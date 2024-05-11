@@ -19,10 +19,7 @@ export default function Footer() {
         <Link to='/contato' className={styles.link}>Entre em contato comigo</Link>
         <Link to='/projetos' className={styles.link}>Meus projetos</Link>
 
-        <Routes>
-            <Route path='/contato' element={<Contato/>}/>
-            <Route path='/contato' element={<Projetos/>}/>
-        </Routes>
+
         </section>
         <section>
             <p>Email: juliaa.brito22@gmail.com</p>
