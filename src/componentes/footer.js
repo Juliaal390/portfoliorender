@@ -1,11 +1,12 @@
 import styles from './footer.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons';
-import {Routes, Route, Link} from 'react-router-dom';
-import Contato from '../componentes/contato';
-import Projetos from '../componentes/projetos';
+import {Link} from 'react-router-dom';
+import { useContext } from 'react';
+import { LinkagemContext } from '../context/linkagem';
 
 export default function Footer() {
+    const { setPagina } = useContext(LinkagemContext);
     return(
     <>
     <footer>
@@ -16,8 +17,8 @@ export default function Footer() {
 
         </section>
         <section className={styles.siteMap}>
-        <Link to='/contato' className={styles.link}>Entre em contato comigo</Link>
-        <Link to='/projetos' className={styles.link}>Meus projetos</Link>
+        <Link to='/contato' onClick={() => setPagina('contato')} className={styles.link}>Entre em contato comigo</Link>
+        <Link to='/projetos' onClick={() => setPagina('projetos')} className={styles.link}>Meus projetos</Link>
 
 
         </section>
