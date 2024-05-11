@@ -1,3 +1,31 @@
 footer{
     background-color: var(--color3);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'sedan sc';
+    
+}
+.redesSociais{
+    text-align: center;
+}
+.siteMap {
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+  }
+
+.icon{
+    font-size: 2rem;
+}
+.linkedin{
+    color: #0A66C2;
+}
+.github{
+    color: #4E6E91;
+    margin-left: 0.5rem;
+}
+
+.link{
+    color: var(--color2);
 }
