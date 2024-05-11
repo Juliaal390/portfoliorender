@@ -1,0 +1,64 @@
+.home{
+    background-color: var(--color1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem 10rem;
+}
+.sobre h2, .habilidades h2{
+    color: var(--color4);
+    margin-bottom: 2rem;
+}
+.sobre p{
+    color: var(--color3);
+    margin-bottom: 2rem;
+}
+.sobre button{
+    padding: 0rem 2rem;
+    margin-top: 1rem;
+}
+.sobreAside{
+    /* border: 1px solid var(--color3); */
+    padding: 2rem;
+}
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.icon{
+    font-size: 3rem;
+    margin: 0.7rem;
+}
+.html{
+    color: #E44D26;
+}
+.css{
+    color: #214CE5;
+}
+.js{
+    color: #F7E018;
+}
+.react{
+    color: #61DBFB;
+}
+.database{
+    color: #9ECBFF;
+}
+.wordpress{
+    color: #28799E;
+}
+.git{
+    color: #F05639;
+}
+.github{
+    color: #4E6E91;
+}
