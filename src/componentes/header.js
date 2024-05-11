@@ -8,13 +8,13 @@ import { useContext } from 'react'; // Removido useState e useEffect
 import { LinkagemContext } from '../context/linkagem';
 
 export default function Header() {
-  const { setPagina } = useContext(LinkagemContext);
+  const { setPagina, clickHome } = useContext(LinkagemContext);
 
   return (
     <>
       <header>
         <menu>
-          <Link to='/home' onClick={() => setPagina('home')} className={styles.link}>HOME</Link>
+          <Link to='/home' onClick={() => setPagina('home')} className={styles.link} ref={clickHome}>HOME</Link>
           <Link to='/projetos' onClick={() => setPagina('projetos')} className={styles.link}>MEUS PROJETOS</Link>
           <Link to='/contato' onClick={() => setPagina('contato')} className={styles.link}>CONTATO</Link>
         </menu>

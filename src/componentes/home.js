@@ -14,7 +14,7 @@ export default function Home() {
         <div className={styles.sobreAside}>
           <h2>Quem sou eu?</h2>
           <p>
-          Sou entusiasta de desenvolvimento web, atualmente cursando Sistemas de Informação na Universidade do Estado de Minas Gerais (UEMG). Estou sempre buscando oportunidades que permitam expandir meus conhecimentos como desenvolvedora front-end. 
+          Sou entusiasta de desenvolvimento web, atualmente cursando Sistemas de Informação na Universidade do Estado de Minas Gerais (UEMG). Para mim, desenvolvimento é uma forma de arte. Estou sempre buscando oportunidades que permitam expandir meus conhecimentos como desenvolvedora front-end. 
           Com experiência em HTML, CSS, JavaScript, React JS e WordPress, estou constantemente aprimorando minhas habilidades técnicas. Além disso, estou familiarizada com ferramentas essenciais como Git e GitHub, garantindo um trabalho eficiente e colaborativo.
           </p>
 

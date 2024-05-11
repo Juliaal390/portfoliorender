@@ -1,8 +1,15 @@
-import { createContext, useEffect, useState } from "react";
+import React, { createContext, useEffect, useState, useRef } from "react";
+
 export const LinkagemContext = createContext();
 
 export const LinkagemProvider =({children})=>{
     const [pagina, setPagina] = useState('home');
+    const clickHome = useRef();
+
+    useEffect(()=>{
+      clickHome.current.click();
+    }, []);
+  
 
     useEffect(() => {
       const getSeta = document.getElementById('setaImg');
@@ -19,5 +26,5 @@ export const LinkagemProvider =({children})=>{
           break;
       }
     }, [pagina]);
-    return <LinkagemContext.Provider value={{pagina, setPagina}}>{children}</LinkagemContext.Provider>
+    return <LinkagemContext.Provider value={{pagina, setPagina, clickHome}}>{children}</LinkagemContext.Provider>
 }
