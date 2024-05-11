@@ -1,0 +1,40 @@
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--color1);
+    padding: 4rem 0;
+    font-family: Sedan SC, 'sans-serif';
+}
+form{
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    width: 22rem;
+    background-color: var(--color3);
+    padding: 1.5rem 2rem;
+    gap: 2rem;
+}
+form h2{
+    color: var(--color1);
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+}
+form input, textarea{
+    padding: 0 1rem;
+    font-family: Sedan SC, 'sans-serif';
+    background-color: var(--color3);
+    border: 1px solid black;
+}
+form textarea{
+    height: 13rem;
+}
+form button{
+    background-color: var(--color5);
+    color: var(--color3);
+    width: 10rem;
+    margin: 0 auto;
+    border: none;
+}
