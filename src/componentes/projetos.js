@@ -1,4 +1,6 @@
 import styles from './projetos.module.css';
+// import Front from './front';
+// import Back from './back';
 
 export default function Projetos() {
     return (
@@ -7,9 +9,9 @@ export default function Projetos() {
         <h2>Meus projetos</h2>
 
         <div className={styles.projetosBox}>
-
         </div>
       </section>
+
       </>
     );
   }
