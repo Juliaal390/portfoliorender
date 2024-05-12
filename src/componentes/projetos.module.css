@@ -10,13 +10,13 @@
     font-weight: normal;
 }
 .projetosBox{
-    width: 80vw;
+    width: 77vw;
     height: auto;
     margin: 0 auto;
     overflow-x: auto;
     overflow-y: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 .menuProjetos{
     display: flex;
@@ -36,4 +36,5 @@
     font-size: large;
     margin: 2rem 0;
     font-family: Sedan SC, 'sans-serif';
+    cursor: pointer;
 }

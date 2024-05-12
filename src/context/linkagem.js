@@ -4,6 +4,7 @@ export const LinkagemContext = createContext();
 
 export const LinkagemProvider =({children})=>{
     const [pagina, setPagina] = useState('home');
+    const [stack, setStack] = useState('front');
     const clickHome = useRef();
 
     useEffect(()=>{
@@ -26,5 +27,5 @@ export const LinkagemProvider =({children})=>{
           break;
       }
     }, [pagina]);
-    return <LinkagemContext.Provider value={{pagina, setPagina, clickHome}}>{children}</LinkagemContext.Provider>
+    return <LinkagemContext.Provider value={{pagina, setPagina, clickHome, stack, setStack}}>{children}</LinkagemContext.Provider>
 }
