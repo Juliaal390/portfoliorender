@@ -1,9 +1,15 @@
+import styles from './projetos.module.css';
+
 export default function Projetos() {
     return (
       <>
-      <div>
-        <h2>PROJETOS</h2>
-      </div>
+      <section className={styles.projetos}>
+        <h2>Meus projetos</h2>
+
+        <div className={styles.projetosBox}>
+
+        </div>
+      </section>
       </>
     );
   }
