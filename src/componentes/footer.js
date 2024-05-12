@@ -1,6 +1,6 @@
 import styles from './footer.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faSquareGithub, faSquareBehance } from '@fortawesome/free-brands-svg-icons';
 import {Link} from 'react-router-dom';
 import { useContext } from 'react';
 import { LinkagemContext } from '../context/linkagem';
@@ -14,6 +14,7 @@ export default function Footer() {
             <h2>Redes Sociais</h2>
             <FontAwesomeIcon icon={faLinkedin} className={`${styles.icon} ${styles.linkedin}`}/>
             <FontAwesomeIcon icon={faSquareGithub} className={`${styles.icon} ${styles.github}`}/>
+            <FontAwesomeIcon icon={faSquareBehance} className={`${styles.icon} ${styles.behance}`}/>
 
         </section>
         <section className={styles.siteMap}>
