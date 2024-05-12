@@ -6,6 +6,7 @@ import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import 'react-tippy/dist/tippy.css';
 import {Tooltip} from 'react-tippy';
+import pdf from '../imagens/julia.pdf';
 
 export default function Home() {
     return (
@@ -20,7 +21,7 @@ export default function Home() {
           Sou atualmente estudante de Sistemas de Informação da Universidade do Estado de Minas Gerais (UEMG). Apesar de ter iniciado a faculdade em Março de 2023, tenho contato com desenvolvimento desde 2021, ano em que iniciei o curso de programação da Evolute e me apaixonei definitivamente pela área. Além disso, fui estagiária de TI de Março a Maio de 2024, no Jornal Folha da Manhã.
           </p>
 
-          <a href='' download><button>Currículo</button></a>
+          <a href={pdf} download='Julia Alves CV'><button>Currículo</button></a>
         </div>
       </section>
 
