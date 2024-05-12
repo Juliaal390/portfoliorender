@@ -11,7 +11,6 @@ export const LinkagemProvider =({children})=>{
       clickHome.current.click();
     }, []);
   
-
     useEffect(() => {
       const getSeta = document.getElementById('setaImg');
   

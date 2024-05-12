@@ -37,6 +37,11 @@
     margin: 2rem 0;
     font-family: Sedan SC, 'sans-serif';
     cursor: pointer;
+    text-decoration: underline;
+    transition: all 0.5s;
+}
+.menuProjetos button:hover{
+    color: white;
 }
 .projetosBox::-webkit-scrollbar{
     height: 0.5rem;
