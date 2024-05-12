@@ -12,9 +12,12 @@ export default function Footer() {
     <footer>
         <section className={styles.redesSociais}>
             <h2>Redes Sociais</h2>
-            <FontAwesomeIcon icon={faLinkedin} className={`${styles.icon} ${styles.linkedin}`}/>
-            <FontAwesomeIcon icon={faSquareGithub} className={`${styles.icon} ${styles.github}`}/>
-            <FontAwesomeIcon icon={faSquareBehance} className={`${styles.icon} ${styles.behance}`}/>
+            <a href='https://www.linkedin.com/in/julia-alves-956507273/' target='_blank' rel="noreferrer noopener"><FontAwesomeIcon icon={faLinkedin} className={`${styles.icon} ${styles.linkedin}`}/></a>
+
+            <a href='https://github.com/Juliaal390' target='_blank' rel="noreferrer noopener"><FontAwesomeIcon icon={faSquareGithub} className={`${styles.icon} ${styles.github}`}/></a>
+
+            <a href='https://www.behance.net/juliaal' target='_blank' rel="noreferrer noopener"><FontAwesomeIcon icon={faSquareBehance} className={`${styles.icon} ${styles.behance}`}/></a>
+            
 
         </section>
         <section className={styles.siteMap}>

@@ -10,7 +10,7 @@ form{
     display: flex;
     flex-direction: column;
     right: 0;
-    width: 22rem;
+    width: 24rem;
     background-color: var(--color3);
     padding: 1.5rem 2rem;
     gap: 2rem;
@@ -24,12 +24,17 @@ form h2{
 }
 form input, textarea{
     padding: 0 1rem;
-    font-family: Sedan SC, 'sans-serif';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;;
     background-color: var(--color3);
     border: 1px solid black;
 }
+form input::placeholder{
+    font-family: Sedan SC, 'sans-serif';
+}
 form textarea{
-    height: 13rem;
+    height: 14rem;
 }
 form button{
     background-color: var(--color5);

@@ -22,7 +22,7 @@ export const LinkagemProvider =({children})=>{
           getSeta.style.left = '30ch';
           break;
         default:
-          getSeta.style.left = '49.5ch';
+          getSeta.style.left = '49ch';
           break;
       }
     }, [pagina]);
