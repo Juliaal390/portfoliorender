@@ -8,8 +8,15 @@ export default function Projetos() {
       <section className={styles.projetos}>
         <h2>Meus projetos</h2>
 
+        <div className={styles.divisoria}>
+        <div className={styles.menuProjetos}>
+            <button>Front-end</button>
+            <button>Back-end</button>
+          </div>
         <div className={styles.projetosBox}>
-          <Front/>
+            <Front/>
+          
+        </div>
         </div>
       </section>
 
