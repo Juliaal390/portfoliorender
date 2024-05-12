@@ -6,7 +6,7 @@ import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import 'react-tippy/dist/tippy.css';
 import {
-  Tooltip,
+ Tooltip,
 } from 'react-tippy';
 
 
