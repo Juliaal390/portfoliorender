@@ -1,7 +1,7 @@
 import styles from './home.module.css';
 import eu from '../imagens/minhafoto.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faSquareJs, faReact, faWordpress, faGitAlt, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faSquareJs, faReact, faWordpress, faGitAlt, faGithub, faFigma } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -31,6 +31,7 @@ export default function Home() {
         <FontAwesomeIcon icon={faReact} className={`${styles.icon} ${styles.react}`} />
         <FontAwesomeIcon icon={faDatabase} className={`${styles.icon} ${styles.database}`} />
         <FontAwesomeIcon icon={faWordpress} className={`${styles.icon} ${styles.wordpress}`} />
+        <FontAwesomeIcon icon={faFigma} className={`${styles.icon} ${styles.figma}`}/>
         <FontAwesomeIcon icon={faGitAlt} className={`${styles.icon} ${styles.git}`} />
         <FontAwesomeIcon icon={faGithub} className={`${styles.icon} ${styles.github}`} />
         </div>
