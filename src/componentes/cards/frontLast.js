@@ -3,7 +3,7 @@ import Figma from '../../imagens/figma.png';
 export default function FrontLast(){
     return(
         <>
-        <div className='projCard'>
+        <div className='projCard projCardLast'>
             <img src={Figma} alt='lista de tarefas' className='projImg projImgLast'/>
             <h3>Projetos no Figma</h3>
             <p>Acesse meu Behance e veja meus protótipos criados</p>

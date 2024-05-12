@@ -3,6 +3,8 @@ import Proj2 from './cards/front2';
 import Proj3 from './cards/front3';
 import ProjLast from './cards/frontLast';
 
+//os estilos estão no index.css
+
 export default function Front(){
     return (
         <>

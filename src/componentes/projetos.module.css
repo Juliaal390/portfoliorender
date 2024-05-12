@@ -38,3 +38,13 @@
     font-family: Sedan SC, 'sans-serif';
     cursor: pointer;
 }
+.projetosBox::-webkit-scrollbar{
+    height: 0.5rem;
+}
+.projetosBox::-webkit-scrollbar-track{
+    background-color: var(--color1);
+}
+.projetosBox::-webkit-scrollbar-thumb{
+    background-color: var(--color2);
+    border-radius: 1rem;
+}
