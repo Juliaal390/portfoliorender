@@ -1,7 +1,9 @@
+import Back1 from './cards/back1';
+
 export default function Back(){
     return (
         <>
-        <h2>BACK</h2>
+        <Back1/>
         </>
     );
 }
