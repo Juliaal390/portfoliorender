@@ -18,7 +18,7 @@ export default function Home() {
         <div className={styles.sobreAside}>
           <h2>Quem sou eu?</h2>
           <p>
-          Sou atualmente estudante de Sistemas de Informação da Universidade do Estado de Minas Gerais (UEMG). Apesar de ter iniciado a faculdade em Março de 2023, tenho contato com desenvolvimento desde 2021, ano em que iniciei o curso de programação da Evolute e me apaixonei definitivamente pela área. Além disso, fui estagiária de TI de Março a Maio de 2024, no Jornal Folha da Manhã.
+          Sou atualmente estudante de Sistemas de Informação da Universidade do Estado de Minas Gerais (UEMG). Apesar de ter iniciado a faculdade em Março de 2023, tenho contato com desenvolvimento desde 2021, ano em que iniciei o curso de programação da Evolute e me apaixonei definitivamente pela área. Além disso, fui estagiária de TI de Março a Maio de 2024, no Jornal Folha da Manhã. No momento, procuro oportunidades relacionadas ao desenvolvimento front-end ou banco de dados.
           </p>
 
           <a href={pdf} download='Julia Alves CV'><button>Currículo</button></a>
