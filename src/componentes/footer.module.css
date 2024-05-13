@@ -23,19 +23,17 @@ footer h2{
 
 .icon{
     font-size: 2rem;
+    margin-left: 0.5rem;
 }
 .linkedin{
     color: #0A66C2;
 }
 .behance{
     color: #003ECB;
-    margin-left: 0.5rem;
 }
 .github{
     color: #4E6E91;
-    margin-left: 0.5rem;
 }
-
 .link{
     color: var(--color2);
 }

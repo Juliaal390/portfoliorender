@@ -74,3 +74,9 @@ body::-webkit-scrollbar-thumb{
   object-fit: cover;
   border-radius: 100%;
 }
+
+@media (max-width: 768px){
+  .projCard{
+    margin: 0 3rem 0 0;
+  }
+}
