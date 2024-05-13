@@ -31,5 +31,17 @@ menu{
     transition: all 0.5s;
     position: absolute;
     top: 0.5rem;
-    left: 11ch;
+}
+@media (max-width: 768px){
+    header{
+        font-size: small;
+    }
+menu{
+    gap: 0.5rem;
+}
+.seta{
+    height: 2px;
+    width: 34ch;
+
+}
 }

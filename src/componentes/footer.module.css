@@ -39,3 +39,10 @@ footer h2{
 .link{
     color: var(--color2);
 }
+
+@media (max-width: 768px){
+    footer{
+        font-size: small;
+        flex-direction: column;
+    }
+    }

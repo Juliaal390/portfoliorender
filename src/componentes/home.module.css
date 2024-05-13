@@ -69,3 +69,19 @@
 .github{
     color: #4E6E91;
 }
+
+@media (max-width: 768px){
+    .icon{
+        font-size: 2rem;
+    }
+    .home{
+        font-size: small;
+    }
+    .sobre{
+        flex-direction: column;
+        padding: 0;
+    }
+    .sobre img{
+        width: 20rem;
+    }
+    }

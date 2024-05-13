@@ -44,3 +44,13 @@ form button{
     border: none;
     cursor: pointer;
 }
+
+@media (max-width: 768px){
+    .decoracao{
+        display: none
+    }
+    form{
+        width: 80vw;
+        padding: 0.5rem 1rem;
+    }
+}
