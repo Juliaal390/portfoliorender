@@ -1,7 +1,7 @@
 import styles from './home.module.css';
 import eu from '../imagens/minhafoto.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faSquareJs, faReact, faWordpress, faGitAlt, faGithub, faFigma } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faSquareJs, faReact, faNode, faGitAlt, faGithub, faFigma } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import 'react-tippy/dist/tippy.css';
@@ -18,7 +18,7 @@ export default function Home() {
         <div className={styles.sobreAside}>
           <h2>Quem sou eu?</h2>
           <p>
-          Sou atualmente estudante de Sistemas de Informação da Universidade do Estado de Minas Gerais (UEMG). Apesar de ter iniciado a faculdade em Março de 2023, tenho contato direto com desenvolvimento desde 2021, ano em que iniciei o curso de programação da Evolute e me apaixonei definitivamente pela área. No momento, procuro oportunidades relacionadas ao desenvolvimento front-end ou banco de dados.
+          Sou atualmente estudante de Sistemas de Informação da Universidade do Estado de Minas Gerais (UEMG). Apesar de ter iniciado a faculdade em Março de 2023, tenho contato direto com desenvolvimento desde 2021, ano em que iniciei o curso de programação da Evolute e me apaixonei definitivamente pela área. Estudo constantemente, e busco oportunidades de emprego ou estágio na área de tecnologia.
           </p>
 
           <a href={pdf} download='Julia Alves CV'><button>Currículo</button></a>
@@ -48,12 +48,13 @@ export default function Home() {
         <FontAwesomeIcon icon={faDatabase} className={`${styles.icon} ${styles.database}`} />
         </Tooltip>
 
-        <Tooltip title="WordPress" position="bottom" arrow="true" theme='transparent'>
-        <FontAwesomeIcon icon={faWordpress} className={`${styles.icon} ${styles.wordpress}`} />
-        </Tooltip>
 
         <Tooltip title="Figma" position="bottom" arrow="true" theme='transparent'>
         <FontAwesomeIcon icon={faFigma} className={`${styles.icon} ${styles.figma}`}/>
+        </Tooltip>
+
+        <Tooltip title="Node JS" position="bottom" arrow="true" theme='transparent'>
+        <FontAwesomeIcon icon={faNode} className={`${styles.icon} ${styles.node}`}/>
         </Tooltip>
 
         <Tooltip title="Git" position="bottom" arrow="true" theme='transparent'>
@@ -63,6 +64,8 @@ export default function Home() {
         <Tooltip title="GitHub" position="bottom" arrow="true" theme='transparent'>
         <FontAwesomeIcon icon={faGithub} className={`${styles.icon} ${styles.github}`} />
         </Tooltip>
+
+        
         </div>
       </section>
       </section>
