@@ -51,14 +51,17 @@
 .js{
     color: #F7E018;
 }
+.ts{
+    color: #2D79C7;
+}
 .react{
     color: #61DBFB;
 }
 .database{
     color: #9ECBFF;
 }
-.node{
-    color: #8FC708;
+.next{
+    color: black;
 }
 .figma{
     color: #FF7261;

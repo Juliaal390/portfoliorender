@@ -50,6 +50,6 @@
     background-color: var(--color1);
 }
 .projetosBox::-webkit-scrollbar-thumb{
-    background-color: var(--color2);
+    background-color: var(--color3);
     border-radius: 1rem;
 }
