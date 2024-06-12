@@ -19,7 +19,7 @@ export default function Home() {
         <div className={styles.sobreAside}>
           <h2>Quem sou eu?</h2>
           <p>
-          Sou atualmente graduanda de Sistemas de Informação da Universidade do Estado de Minas Gerais (UEMG). Apesar de ter iniciado a faculdade em Março de 2023, tenho contato direto com desenvolvimento desde 2021, ano em que iniciei o curso de programação da Evolute e me apaixonei definitivamente pela área. Estudo constantemente, e busco oportunidades de emprego ou estágio na área de tecnologia.
+          Sou atualmente graduanda de Sistemas de Informação da Universidade do Estado de Minas Gerais (UEMG). Apesar de ter iniciado a faculdade em Março de 2023, tenho contato direto com desenvolvimento desde 2021, ano em que iniciei o curso de programação da Evolute e criei grande afinidade pela área. Estudo constantemente, e busco oportunidades de emprego ou estágio na área de tecnologia.
           </p>
 
           <a href={pdf} download='Julia Alves CV'><button>Currículo</button></a>
