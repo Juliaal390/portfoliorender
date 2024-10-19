@@ -60,8 +60,11 @@
 .database{
     color: #9ECBFF;
 }
-.next{
-    color: black;
+.vb{
+    color: white;
+}
+.csharp{
+    color: purple;
 }
 .figma{
     color: #FF7261;
@@ -71,6 +74,12 @@
 }
 .github{
     color: #4E6E91;
+}
+.jquery{
+    color: #2D79C7;
+}
+.postman{
+    color: #FF713D;
 }
 
 @media (max-width: 768px){

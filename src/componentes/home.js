@@ -4,7 +4,7 @@ import React from 'react';
 import 'react-tippy/dist/tippy.css';
 import {Tooltip} from 'react-tippy';
 import pdf from '../imagens/julia.pdf';
-import {  SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiGithub, SiTypescript } from "react-icons/si";
+import {  SiJavascript, SiReact, SiTypescript, SiVisualbasic, SiCsharp, SiJquery, SiPostman } from "react-icons/si";
 import { FaDatabase, FaFigma, FaGitAlt } from "react-icons/fa6";
 
 
@@ -19,7 +19,7 @@ export default function Home() {
         <div className={styles.sobreAside}>
           <h2>Quem sou eu?</h2>
           <p>
-          Sou atualmente graduanda de Sistemas de Informação da Universidade do Estado de Minas Gerais (UEMG). Apesar de ter iniciado a faculdade em Março de 2023, tenho contato direto com desenvolvimento desde 2021, ano em que iniciei o curso de programação da Evolute e criei grande afinidade pela área. Estudo constantemente, e busco oportunidades de emprego ou estágio na área de tecnologia.
+          Sou graduanda em Sistemas de Informação pela Universidade do Estado de Minas Gerais (UEMG) e iniciei meus estudos na área em 2021. Ao longo da minha trajetória, desenvolvi um conhecimento sólido tanto em front-end quanto em back-end, podendo atuar em diferentes fases do desenvolvimento de sistemas. Além disso, tenho experiência com suporte, onde aprimorei minhas habilidades de apoio ao cliente.
           </p>
 
           <a href={pdf} download='Julia Alves CV'><button>Currículo</button></a>
@@ -27,16 +27,8 @@ export default function Home() {
       </section>
 
       <section className={styles.habilidades}>
-        <h2>Habilidades</h2>
+        <h2>Habilidades Principais</h2>
         <div>
-        <Tooltip title="HTML" position="bottom" arrow="true" theme='transparent'>
-        <SiHtml5 className={`${styles.icon} ${styles.html}`} />
-        </Tooltip>
-
-        <Tooltip title="CSS" position="bottom" arrow="true" theme='transparent'>
-        <SiCss3 className={`${styles.icon} ${styles.css}`} />
-        </Tooltip>
-
         <Tooltip title="JavaScript" position="bottom" arrow="true" theme='transparent'>
         <SiJavascript className={`${styles.icon} ${styles.js}`} />
         </Tooltip>
@@ -53,24 +45,25 @@ export default function Home() {
         <FaDatabase className={`${styles.icon} ${styles.database}`} />
         </Tooltip>
 
-
         <Tooltip title="Figma" position="bottom" arrow="true" theme='transparent'>
         <FaFigma className={`${styles.icon} ${styles.figma}`}/>
         </Tooltip>
 
-        <Tooltip title="Next JS" position="bottom" arrow="true" theme='transparent'>
-        <SiNextdotjs className={`${styles.icon} ${styles.next}`}/>
+        <Tooltip title="Visual Basic" position="bottom" arrow="true" theme='transparent'>
+        <SiVisualbasic className={`${styles.icon} ${styles.vb}`}/>
         </Tooltip>
 
-        <Tooltip title="Git" position="bottom" arrow="true" theme='transparent'>
-        <FaGitAlt className={`${styles.icon} ${styles.git}`} />
+        <Tooltip title="CSharp" position="bottom" arrow="true" theme='transparent'>
+        <SiCsharp className={`${styles.icon} ${styles.csharp}`}/>
         </Tooltip>
 
-        <Tooltip title="GitHub" position="bottom" arrow="true" theme='transparent'>
-        <SiGithub className={`${styles.icon} ${styles.github}`} />
+        <Tooltip title="JQuery" position="bottom" arrow="true" theme='transparent'>
+        <SiJquery className={`${styles.icon} ${styles.jquery}`}/>
         </Tooltip>
 
-        
+        <Tooltip title="Postman" position="bottom" arrow="true" theme='transparent'>
+        <SiPostman className={`${styles.icon} ${styles.postman}`}/>
+        </Tooltip>  
         </div>
       </section>
       </section>
