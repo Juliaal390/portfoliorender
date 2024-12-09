@@ -3,9 +3,8 @@ import eu from '../imagens/minhafoto.png';
 import React from 'react';
 import 'react-tippy/dist/tippy.css';
 import {Tooltip} from 'react-tippy';
-import pdf from '../imagens/julia.pdf';
 import {  SiJavascript, SiReact, SiTypescript, SiVisualbasic, SiCsharp, SiJquery, SiPostman } from "react-icons/si";
-import { FaDatabase, FaFigma, FaGitAlt } from "react-icons/fa6";
+import { FaDatabase, FaFigma } from "react-icons/fa6";
 
 
 
@@ -19,10 +18,9 @@ export default function Home() {
         <div className={styles.sobreAside}>
           <h2>Quem sou eu?</h2>
           <p>
-          Sou graduanda em Sistemas de Informação pela Universidade do Estado de Minas Gerais (UEMG) e iniciei meus estudos na área em 2021. Ao longo da minha trajetória, desenvolvi um conhecimento sólido tanto em front-end quanto em back-end, podendo atuar em diferentes fases do desenvolvimento de sistemas. Além disso, tenho experiência com suporte, onde aprimorei minhas habilidades de apoio ao cliente.
+          Sou graduanda em Sistemas de Informação pela Universidade do Estado de Minas Gerais (UEMG) e iniciei meus estudos na área em 2021. Ao longo da minha trajetória, desenvolvi conhecimentos sólidos tanto em front-end quanto em back-end, além de experiências práticas com suporte e atendimento ao cliente, me permitindo atuar em diferentes fases de desenvolvimento de sistemas.
           </p>
 
-          <a href={pdf} download='Julia Alves CV'><button>Currículo</button></a>
         </div>
       </section>
 
